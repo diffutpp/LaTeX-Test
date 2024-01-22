@@ -1,0 +1,28 @@
+\documentclass[draft]{jsarticle}
+%ここはプリアンブルと呼ばれています
+\begin{document}
+\tableofcontents
+\pagebreak %以降ページが変わるまで空白
+\section{はじめに}
+テストですよ
+\subsection{朝}
+おはよう
+\subsection{昼}
+こんにちは
+\subsection{夜}
+\begin{quote} %tabみたいな感じ？
+    \begin{itemize} %箇条書き
+        \item こんばんは
+        \item 今晩は
+    \end{itemize} %end書く
+\end{quote} %end書く
+\begin{itemize}
+    \item こんばんは
+    \\ %\\は改行
+    \item 今晩は
+\end{itemize}
+
+\begin{appendix}
+\include{appendix}
+\end{appendix}
+\end{document}
